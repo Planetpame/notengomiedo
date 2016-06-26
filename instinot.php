@@ -28,16 +28,12 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="institutions.php">INSTITUTIONS</a></li>
-        <li><a href="#pricing">TOP 5 INSTITUTIONS</a></li>
-        
-         <?php @session_start(); if($_SESSION["user_id"]) {
-            echo "<li><a href='#login'>logout</a></li>";
-          }else{
-             echo "<li><a href='#contact'>REGISTER</a></li>";
-             echo "<li><a href='#login'>LOGIN</a></li>";    
-            }?>
+        <li><a href="index.php">SERVICES</a></li>
+        <li><a href="instinot.php">INSTITUTIONS</a></li>
+        <li><a href="top5not.php">TOP 5 INSTITUTIONS</a></li>
+         <li><a href='index.php'>REGISTER</a></li>
+           <li><a href='index.php'>LOGIN</a></li>   
+            
       </ul>
     </div>
   </div>
@@ -45,6 +41,8 @@
 
 
 
+<br>
+<Br>
 <br>
 <Br>
 <br>
@@ -87,7 +85,7 @@
           $query5 = $mysqli->query($sql5);
  ?></h3>
           <h4>SCORE</h4>
-          <a href="lista.php?idI=<?=$x?>" class="btn btn-lg">MORE INFO</a>
+          <a href="listasin.php?idI=<?=$x?>" class="btn btn-lg">MORE INFO</a>
           <a href="<?=$row['url'];?>" class="btn btn-lg">WEB PAGE</a>
         </div>
         

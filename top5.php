@@ -27,10 +27,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.php">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
+        <li><a href="indexin.php">ABOUT</a></li>
+        <li><a href="indexin.php">SERVICES</a></li>
         <li><a href="institutions.php">INSTITUTIONS</a></li>
-        <li><a href="#pricing">TOP 5 INSTITUTIONS</a></li>
+        <li><a href="top5.php">TOP 5 INSTITUTIONS</a></li>
         
          <li><a href="logout.php">LOGOUT</a></li>
         
@@ -55,8 +55,7 @@
 
 <div id="pricing" class="container-fluid">
   <div class="text-center">
-    <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
+    <h2>Realiable data</h2>
   </div>
   <div class="row slideanim">
      <?php include "conexion.php"; 

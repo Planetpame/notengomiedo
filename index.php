@@ -30,9 +30,9 @@
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#services">SERVICES</a></li>
         <li><a href="instinot.php">INSTITUTIONS</a></li>
-        <li><a href="#pricing">TOP 5 INSTITUTIONS</a></li>
-         <li><a href='#contact'>REGISTER</a></li>
-           <li><a href='#login'>LOGIN</a></li>   
+        <li><a href="top5not.php">TOP 5 INSTITUTIONS</a></li>
+         <li><a href='index.php'>REGISTER</a></li>
+           <li><a href='index.php'>LOGIN</a></li>   
             
 
       </ul>

@@ -28,8 +28,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="institutions.php">INSTITUTIONS</a></li>
+        <li><a href="index.php">SERVICES</a></li>
+        <li><a href="instinot.php">INSTITUTIONS</a></li>
         <li><a href="#pricing">TOP 5 INSTITUTIONS</a></li>
         
          <?php @session_start(); if($_SESSION["user_id"]) {
